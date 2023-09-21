@@ -9,34 +9,34 @@ public class UIManager : MonoBehaviour
     public GameObject readyScreen;
     public GameObject gameScreen;
     public GameObject endScreen;
-    public GameObject RankingPanel;
-    public GameObject InputNamePanel;
+    //public GameObject RankingPanel;
+    //public GameObject InputNamePanel;
     public GameObject handle;
     public Button startBtn;
     public Button restartBtn;
     public Button exitBtn;
-    public Text score;
-    public Text scoreFinal;
-    public Text scoreRank;
+    //public Text score;
+    //public Text scoreFinal;
+    ///public Text scoreRank;
     public Slider timeSlider;
     public Coroutine blinkCoroutine;
 
-    public Button saveRankBtn;
-    public Button rankingBtn;
-    public Button showNameInputBtn;
-    public Button closeRankBtn;
-    public TMP_InputField nameInputField;
+    // public Button saveRankBtn;
+    // public Button rankingBtn;
+    // public Button showNameInputBtn;
+    // public Button closeRankBtn;
+    // public TMP_InputField nameInputField;
 
     private void Awake() {
         startBtn.onClick.AddListener(() => {GameController.instance.StartGame();});
         restartBtn.onClick.AddListener(() => {GameController.instance.ReadyGame();});
         exitBtn.onClick.AddListener(() => {Application.Quit();});
-        saveRankBtn.onClick.AddListener(() => {CreateRanking();});
-        rankingBtn.onClick.AddListener(() => {SetActivePanel(RankingPanel, true);});
-        showNameInputBtn.onClick.AddListener(() => {SetActivePanel(InputNamePanel, true);});
-        closeRankBtn.onClick.AddListener(() => {
-            SetActivePanel(RankingPanel, false);
-            SetActivePanel(InputNamePanel, false); });
+        //saveRankBtn.onClick.AddListener(() => {CreateRanking();});
+        //rankingBtn.onClick.AddListener(() => {SetActivePanel(RankingPanel, true);});
+        //showNameInputBtn.onClick.AddListener(() => {SetActivePanel(InputNamePanel, true);});
+        //closeRankBtn.onClick.AddListener(() => {
+        //    SetActivePanel(RankingPanel, false);
+        //    SetActivePanel(InputNamePanel, false); });
     }
     private void Start() {
         timeSlider.maxValue = GameController.instance.gameTime;
@@ -117,11 +117,11 @@ public class UIManager : MonoBehaviour
 
     public void CreateRanking()
     {
-        bool isSuccess = RankingManager.instance.CreateRanking(nameInputField.text, GameController.instance.score);
-        if(isSuccess)
-        {
-            SetActivePanel(InputNamePanel, false);
-            showNameInputBtn.interactable = false;
-        }
+        // bool isSuccess = RankingManager.instance.CreateRanking(nameInputField.text, GameController.instance.score);
+        // if(isSuccess)
+        // {
+        //     SetActivePanel(InputNamePanel, false);
+        //     showNameInputBtn.interactable = false;
+        // }
     }
 }

@@ -21,7 +21,7 @@
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "buildOutputDirList",
-                "value": "{\"m_Value\":\"C:/Users/AR-DEV/Documents/GitHub/MatchPuzzleGame/WebGL Builds;;;;;;;;;\"}"
+                "value": "{\"m_Value\":\"C:/Users/AR-DEV/Documents/GitHub/MatchMergeGame/WebGL Builds/matchGame;C:/Users/AR-DEV/Documents/GitHub/MatchPuzzleGame/MatchPuzzleGame;C:/Users/AR-DEV/Documents/GitHub/MatchPuzzleGame/WebGL Builds/MatchPuzzleGame;C:/Users/AR-DEV/Documents/GitHub/MatchPuzzleGame/WebGL Builds/Build/test;C:/Users/AR-DEV/Documents/GitHub/MatchPuzzleGame/WebGL Builds;;;;;\"}"
             }
         ]
     }
