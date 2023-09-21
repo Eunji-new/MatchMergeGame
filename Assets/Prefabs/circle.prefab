@@ -312,7 +312,7 @@ MonoBehaviour:
   normalMat: {fileID: 2100000, guid: 33c3e92743e450f4d91ba3de5679a7c0, type: 2}
   rowMat: {fileID: 2100000, guid: f36527112d750184abdab4afa472bf36, type: 2}
   colMat: {fileID: 2100000, guid: 126796aaa5aeb8342a36ed341f7e30e0, type: 2}
-  specialMat: {fileID: 2100000, guid: 920c3773ccc68f949a0d586faf79b0a8, type: 2}
+  specialMat: {fileID: 2100000, guid: 87fac540120ca084887b940cdf97d45d, type: 2}
   xIndex: 0
   yIndex: 0
-  type: tive
+  type: circle

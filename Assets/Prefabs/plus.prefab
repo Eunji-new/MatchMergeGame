@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9f41db1c3cb265149a3ed71160527ad6, type: 2}
+  - {fileID: 2100000, guid: 51bb67104de49b54fb26e7af7d93101b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -160,7 +160,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9f41db1c3cb265149a3ed71160527ad6, type: 2}
+  - {fileID: 2100000, guid: 51bb67104de49b54fb26e7af7d93101b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 7986553624579518283}
   - component: {fileID: -1907706039210637440}
   m_Layer: 0
-  m_Name: triangle
+  m_Name: plus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -309,10 +309,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileType: 0
-  normalMat: {fileID: 2100000, guid: 9f41db1c3cb265149a3ed71160527ad6, type: 2}
-  rowMat: {fileID: 2100000, guid: a9385758be65260409c5f12b7caf40fd, type: 2}
-  colMat: {fileID: 2100000, guid: 50ca0500cb08b22479443e1b01782c0c, type: 2}
+  normalMat: {fileID: 2100000, guid: 51bb67104de49b54fb26e7af7d93101b, type: 2}
+  rowMat: {fileID: 2100000, guid: 75ede8e190cf1204d8ecc3236ae83bd7, type: 2}
+  colMat: {fileID: 2100000, guid: bdb86a06a3db8d747a706ff36106a3ec, type: 2}
   specialMat: {fileID: 2100000, guid: 87fac540120ca084887b940cdf97d45d, type: 2}
   xIndex: 0
   yIndex: 0
-  type: triangle
+  type: plus
