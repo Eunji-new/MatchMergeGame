@@ -4,4 +4,5 @@
 
 [Web Demo](https://play.unity.com/mg/other/matchpuzzlegame)
 
-![matchGame - Unity Play - Chrome 2023-09-22 15-39-14](https://github.com/Eunji-new/MatchMergeGame/assets/28985207/e620c125-7d53-453e-bd32-0a07a34e8efe)
+
+![image](https://github.com/Eunji-new/MatchMergeGame/assets/28985207/5795c73b-10a0-46d4-8f3d-7440521d2da6)
