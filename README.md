@@ -4,4 +4,4 @@
 
 [Web Demo](https://play.unity.com/mg/other/matchpuzzlegame)
 
-<center><img width="100%" src="https://github.com/Eunji-new/MatchMergeGame/assets/28985207/de7d2833-802c-46a8-8228-c27539eb7f26"/></center>
+<center><img width="100%" src="https://github.com/Eunji-new/MatchMergeGame/assets/28985207/4b00f2bd-dd3c-4fdc-a5bf-ecf9b81c3384"/></center>
